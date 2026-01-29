@@ -1,3 +1,5 @@
+import type { ModelProvider } from "./types/types";
+
 export class AIService {
   private model: string;
   private static instance: AIService;
@@ -14,11 +16,13 @@ export class AIService {
     return AIService.instance;
   }
 
-  updateModel(newModel: string) {
+  updateModel(newModel: ModelProvider) {
     this.model = newModel;
   }
 
   getModel() {
     return this.model;
   }
+
+  streamText() {}
 }

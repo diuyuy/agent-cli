@@ -1,1 +1,1 @@
-export const modelProviders = ["antrophic", "gemini"];
+export const MODEL_PROVIDERS = ["antrophic", "gemini"] as const;
