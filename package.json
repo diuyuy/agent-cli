@@ -1,0 +1,22 @@
+{
+  "name": "my-agent",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun run src/index.tsx"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/react": "^19.2.10"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@inquirer/core": "^11.1.1",
+    "@inquirer/prompts": "^8.2.0",
+    "ai": "^6.0.59",
+    "chalk": "^5.6.2",
+    "zod": "^4.3.6"
+  }
+}
