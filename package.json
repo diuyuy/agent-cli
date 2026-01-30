@@ -3,7 +3,7 @@
   "module": "index.ts",
   "type": "module",
   "scripts": {
-    "start": "bun run src/index.tsx"
+    "start": "bun run src/index.ts"
   },
   "devDependencies": {
     "@types/bun": "latest",
@@ -13,6 +13,9 @@
     "typescript": "^5"
   },
   "dependencies": {
+    "@ai-sdk/anthropic": "^3.0.30",
+    "@ai-sdk/google": "^3.0.17",
+    "@ai-sdk/openai": "^3.0.22",
     "@inquirer/core": "^11.1.1",
     "@inquirer/prompts": "^8.2.0",
     "ai": "^6.0.59",

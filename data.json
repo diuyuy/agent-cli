@@ -1,0 +1,921 @@
+{
+  "type": "search",
+  "query": {
+    "original": "What is Singleton",
+    "show_strict_warning": false,
+    "is_navigational": false,
+    "is_news_breaking": false,
+    "spellcheck_off": true,
+    "country": "us",
+    "bad_results": false,
+    "should_fallback": false,
+    "postal_code": "",
+    "city": "",
+    "header_country": "",
+    "more_results_available": true,
+    "state": ""
+  },
+  "mixed": {
+    "type": "mixed",
+    "main": [
+      {
+        "type": "web",
+        "index": 0,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 1,
+        "all": false
+      },
+      {
+        "type": "videos",
+        "all": true
+      },
+      {
+        "type": "web",
+        "index": 2,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 3,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 4,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 5,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 6,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 7,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 8,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 9,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 10,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 11,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 12,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 13,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 14,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 15,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 16,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 17,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 18,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 19,
+        "all": false
+      }
+    ],
+    "top": [],
+    "side": []
+  },
+  "videos": {
+    "type": "videos",
+    "results": [
+      {
+        "type": "video_result",
+        "url": "https://www.youtube.com/watch?v=xhi0m1QZue0",
+        "title": "What is Singleton? - YouTube",
+        "description": "The Singleton pattern is a software design pattern that restricts the instantiation of a class to one single instance.But what does it got to do with SvelteK...",
+        "age": "May 26, 2022",
+        "page_age": "2022-05-26T10:04:58",
+        "fetched_content_timestamp": 1768588619,
+        "video": {
+          "duration": "08:03",
+          "creator": "lihautan",
+          "publisher": "YouTube"
+        },
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "youtube.com",
+          "hostname": "www.youtube.com",
+          "favicon": "https://imgs.search.brave.com/Wg4wjE5SHAargkzePU3eSLmWgVz84BEZk1SjSglJK_U/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvOTkyZTZiMWU3/YzU3Nzc5YjExYzUy/N2VhZTIxOWNlYjM5/ZGVjN2MyZDY4Nzdh/ZDYzMTYxNmI5N2Rk/Y2Q3N2FkNy93d3cu/eW91dHViZS5jb20v",
+          "path": "› watch"
+        },
+        "thumbnail": {
+          "src": "https://imgs.search.brave.com/UhIrgKzBdgi9uzdoaCeGo9Twe1QXNZFN61VUC7CnOe4/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9pLnl0/aW1nLmNvbS92aS94/aGkwbTFRWnVlMC9t/YXhyZXNkZWZhdWx0/LmpwZw",
+          "original": "https://i.ytimg.com/vi/xhi0m1QZue0/maxresdefault.jpg"
+        }
+      },
+      {
+        "type": "video_result",
+        "url": "https://www.youtube.com/watch?v=FJlFbCKgT7Q",
+        "title": "What is the Singleton Pattern? (Software Design Patterns) - YouTube",
+        "description": "In this video, learn why the Singleton Pattern is such an important design pattern. I tell you what the singleton pattern is, how it works, and explain it wi...",
+        "age": "December 14, 2020",
+        "page_age": "2020-12-14T14:06:19",
+        "fetched_content_timestamp": 1768410049,
+        "video": {
+          "duration": "10:16",
+          "creator": "Be A Better Dev",
+          "publisher": "YouTube"
+        },
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "youtube.com",
+          "hostname": "www.youtube.com",
+          "favicon": "https://imgs.search.brave.com/Wg4wjE5SHAargkzePU3eSLmWgVz84BEZk1SjSglJK_U/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvOTkyZTZiMWU3/YzU3Nzc5YjExYzUy/N2VhZTIxOWNlYjM5/ZGVjN2MyZDY4Nzdh/ZDYzMTYxNmI5N2Rk/Y2Q3N2FkNy93d3cu/eW91dHViZS5jb20v",
+          "path": "› watch"
+        },
+        "thumbnail": {
+          "src": "https://imgs.search.brave.com/mDieT5LMeQ7i1IaOE_B1u9fMzuQcH_mezc9FxyHMBn4/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9pLnl0/aW1nLmNvbS92aS9G/SmxGYkNLZ1Q3US9t/YXhyZXNkZWZhdWx0/LmpwZw",
+          "original": "https://i.ytimg.com/vi/FJlFbCKgT7Q/maxresdefault.jpg"
+        }
+      },
+      {
+        "type": "video_result",
+        "url": "https://www.youtube.com/watch?v=CWkD2kP6Wug",
+        "title": "Singleton Pattern EXPLAINED IN 10 MINS | Javascript Design Patterns ...",
+        "description": "💖 Check out my web development courseshttps://developedbyed.com---------------------------------------------------------------------------------------------...",
+        "age": "August 29, 2023",
+        "page_age": "2023-08-29T18:10:43",
+        "fetched_content_timestamp": 1726243241,
+        "video": {
+          "duration": "09:57",
+          "views": 19038,
+          "creator": "developedbyed",
+          "publisher": "YouTube"
+        },
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "youtube.com",
+          "hostname": "www.youtube.com",
+          "favicon": "https://imgs.search.brave.com/Wg4wjE5SHAargkzePU3eSLmWgVz84BEZk1SjSglJK_U/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvOTkyZTZiMWU3/YzU3Nzc5YjExYzUy/N2VhZTIxOWNlYjM5/ZGVjN2MyZDY4Nzdh/ZDYzMTYxNmI5N2Rk/Y2Q3N2FkNy93d3cu/eW91dHViZS5jb20v",
+          "path": "› watch"
+        },
+        "thumbnail": {
+          "src": "https://imgs.search.brave.com/9Nrss1KBfw_1Yvk61SX6FOMCYxrQl3LOn_HFnQ8TjLE/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9pLnl0/aW1nLmNvbS92aS9D/V2tEMmtQNld1Zy9t/YXhyZXNkZWZhdWx0/LmpwZw",
+          "original": "https://i.ytimg.com/vi/CWkD2kP6Wug/maxresdefault.jpg"
+        }
+      },
+      {
+        "type": "video_result",
+        "url": "https://www.youtube.com/watch?v=khnair65cVc",
+        "title": "What is Singleton Pattern in Java - How to achieve this? - YouTube",
+        "description": "In this video, I have explained What is Singleton Pattern in Java - How to achieve this?The Singleton pattern in Java is a design pattern that restricts the ...",
+        "age": "July 3, 2024",
+        "page_age": "2024-07-03T17:42:20",
+        "fetched_content_timestamp": 1726136670,
+        "video": {
+          "duration": "15:21",
+          "views": 12351,
+          "creator": "Naveen AutomationLabs",
+          "publisher": "YouTube"
+        },
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "youtube.com",
+          "hostname": "www.youtube.com",
+          "favicon": "https://imgs.search.brave.com/Wg4wjE5SHAargkzePU3eSLmWgVz84BEZk1SjSglJK_U/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvOTkyZTZiMWU3/YzU3Nzc5YjExYzUy/N2VhZTIxOWNlYjM5/ZGVjN2MyZDY4Nzdh/ZDYzMTYxNmI5N2Rk/Y2Q3N2FkNy93d3cu/eW91dHViZS5jb20v",
+          "path": "› watch"
+        },
+        "thumbnail": {
+          "src": "https://imgs.search.brave.com/fAM9_DZOPh035x_-_HrkdU9c25DNfAcnvFjlY7jUdis/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9pLnl0/aW1nLmNvbS92aS9r/aG5haXI2NWNWYy9t/YXhyZXNkZWZhdWx0/LmpwZw",
+          "original": "https://i.ytimg.com/vi/khnair65cVc/maxresdefault.jpg"
+        }
+      },
+      {
+        "type": "video_result",
+        "url": "https://www.youtube.com/watch?v=tItFlLprRMY",
+        "title": "What is Singleton Design Pattern -Tutorial with Practical Example ...",
+        "description": "In this video, you'll learn what is Singleton Design Pattern and how to implement it from scratch, step by step. This is a beginner-friendly tutorial where I...",
+        "age": "April 22, 2025",
+        "page_age": "2025-04-22T14:03:07",
+        "fetched_content_timestamp": 1745557662,
+        "video": {
+          "duration": "28:12",
+          "creator": "CodeBeauty",
+          "publisher": "YouTube"
+        },
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "youtube.com",
+          "hostname": "www.youtube.com",
+          "favicon": "https://imgs.search.brave.com/Wg4wjE5SHAargkzePU3eSLmWgVz84BEZk1SjSglJK_U/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvOTkyZTZiMWU3/YzU3Nzc5YjExYzUy/N2VhZTIxOWNlYjM5/ZGVjN2MyZDY4Nzdh/ZDYzMTYxNmI5N2Rk/Y2Q3N2FkNy93d3cu/eW91dHViZS5jb20v",
+          "path": "› watch"
+        },
+        "thumbnail": {
+          "src": "https://imgs.search.brave.com/_rvtgbg3Q4CLUdsdSTVRZiIkIeNLMT6ZbL__U_62-Q8/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9pLnl0/aW1nLmNvbS92aS90/SXRGbExwclJNWS9t/YXhyZXNkZWZhdWx0/LmpwZw",
+          "original": "https://i.ytimg.com/vi/tItFlLprRMY/maxresdefault.jpg"
+        }
+      }
+    ],
+    "mutated_by_goggles": false
+  },
+  "web": {
+    "type": "search",
+    "results": [
+      {
+        "title": "Singleton pattern - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Singleton_pattern",
+        "is_source_local": false,
+        "is_source_both": false,
+        "description": "In object-oriented programming, the singleton pattern is <strong>a software design pattern that restricts the instantiation of a class to a singular instance</strong>. It is one of the well-known &quot;Gang of Four&quot; design patterns, which describe how to solve recurring problems in object-oriented software.",
+        "page_age": "2025-10-17T08:39:02",
+        "profile": {
+          "name": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Singleton_pattern",
+          "long_name": "en.wikipedia.org",
+          "img": "https://imgs.search.brave.com/m6XxME4ek8DGIUcEPCqjRoDjf2e54EwL9pQzyzogLYk/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNjQwNGZhZWY0/ZTQ1YWUzYzQ3MDUw/MmMzMGY3NTQ0ZjNj/NDUwMDk5ZTI3MWRk/NWYyNTM4N2UwOTE0/NTI3ZDQzNy9lbi53/aWtpcGVkaWEub3Jn/Lw"
+        },
+        "language": "en",
+        "family_friendly": true,
+        "type": "search_result",
+        "subtype": "generic",
+        "is_live": false,
+        "deep_results": {
+          "buttons": [
+            {
+              "type": "button_result",
+              "title": "Common uses",
+              "url": "https://en.wikipedia.org/wiki/Singleton_pattern#Common_uses"
+            },
+            {
+              "type": "button_result",
+              "title": "Implementations",
+              "url": "https://en.wikipedia.org/wiki/Singleton_pattern#Implementations"
+            },
+            {
+              "type": "button_result",
+              "title": "Criticism",
+              "url": "https://en.wikipedia.org/wiki/Singleton_pattern#Criticism"
+            }
+          ]
+        },
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "en.wikipedia.org",
+          "hostname": "en.wikipedia.org",
+          "favicon": "https://imgs.search.brave.com/m6XxME4ek8DGIUcEPCqjRoDjf2e54EwL9pQzyzogLYk/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNjQwNGZhZWY0/ZTQ1YWUzYzQ3MDUw/MmMzMGY3NTQ0ZjNj/NDUwMDk5ZTI3MWRk/NWYyNTM4N2UwOTE0/NTI3ZDQzNy9lbi53/aWtpcGVkaWEub3Jn/Lw",
+          "path": "› wiki  › Singleton_pattern"
+        },
+        "age": "October 17, 2025"
+      },
+      {
+        "title": "What is Singleton Pattern? - IONOS",
+        "url": "https://www.ionos.com/digitalguide/websites/web-development/singleton-design-pattern/",
+        "is_source_local": false,
+        "is_source_both": false,
+        "description": "The singleton pattern belongs to the category of creational patterns within the realm of design patterns. A less frequently used name is simply “singleton”. <strong>Its purpose is to prevent more than one object from being created by a class</strong>.",
+        "page_age": "2023-07-14T05:49:49",
+        "profile": {
+          "name": "IONOS",
+          "url": "https://www.ionos.com/digitalguide/websites/web-development/singleton-design-pattern/",
+          "long_name": "ionos.com",
+          "img": "https://imgs.search.brave.com/-iWIxVljhDaPGOOBjemh4LYUrtqPvBWItUeBK80pDOI/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvZDIwMzFhYmUz/MGI0MDNjNjQxOWYx/Y2JjMmUyMjg1MmZm/MDE5MGZjYjkzMDhk/ZDU2ODg2YjU3ZGIx/NWIwYzM2Yy93d3cu/aW9ub3MuY29tLw"
+        },
+        "language": "en",
+        "family_friendly": true,
+        "type": "search_result",
+        "subtype": "article",
+        "is_live": false,
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "ionos.com",
+          "hostname": "www.ionos.com",
+          "favicon": "https://imgs.search.brave.com/-iWIxVljhDaPGOOBjemh4LYUrtqPvBWItUeBK80pDOI/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvZDIwMzFhYmUz/MGI0MDNjNjQxOWYx/Y2JjMmUyMjg1MmZm/MDE5MGZjYjkzMDhk/ZDU2ODg2YjU3ZGIx/NWIwYzM2Yy93d3cu/aW9ub3MuY29tLw",
+          "path": "  › digital guide  › websites  › web development  › singleton design pattern"
+        },
+        "thumbnail": {
+          "src": "https://imgs.search.brave.com/YjZwsyaZKagpyxWYCsNOewzKUCPuriA6a6XT6IxbpdE/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly93d3cu/aW9ub3MuY29tL2Rp/Z2l0YWxndWlkZS9m/aWxlYWRtaW4vRGln/aXRhbEd1aWRlL1Rl/YXNlci9odHRwLTQw/OC5qcGc",
+          "original": "https://www.ionos.com/digitalguide/fileadmin/DigitalGuide/Teaser/http-408.jpg",
+          "logo": false
+        },
+        "age": "July 14, 2023"
+      },
+      {
+        "title": "What is Singleton pattern and what is the advantage of it. | by Verdiyev Mahammad | Star Gazers | Medium",
+        "url": "https://medium.com/star-gazers/what-is-singleton-pattern-and-what-is-the-advantage-of-it-43f09509aa7f",
+        "is_source_local": false,
+        "is_source_both": false,
+        "description": "It is the tactic of delaying the creation of an object, the calculation of a value, or some other expensive process, until the first time it is needed . It simply follows the logic of lazy person, he never does any thing until its urgently required :). So you escape the unnecessary object creation. • Instance control: Singleton prevents other objects from instantiating their own copies of the Singleton object, ensuring that all objects access the single instance.",
+        "page_age": "2020-10-25T18:21:59",
+        "profile": {
+          "name": "Medium",
+          "url": "https://medium.com/star-gazers/what-is-singleton-pattern-and-what-is-the-advantage-of-it-43f09509aa7f",
+          "long_name": "medium.com",
+          "img": "https://imgs.search.brave.com/4R4hFITz_F_be0roUiWbTZKhsywr3fnLTMTkFL5HFow/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvOTZhYmQ1N2Q4/NDg4ZDcyODIyMDZi/MzFmOWNhNjE3Y2E4/Y2YzMThjNjljNDIx/ZjllZmNhYTcwODhl/YTcwNDEzYy9tZWRp/dW0uY29tLw"
+        },
+        "language": "en",
+        "family_friendly": true,
+        "type": "search_result",
+        "subtype": "article",
+        "is_live": false,
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "medium.com",
+          "hostname": "medium.com",
+          "favicon": "https://imgs.search.brave.com/4R4hFITz_F_be0roUiWbTZKhsywr3fnLTMTkFL5HFow/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvOTZhYmQ1N2Q4/NDg4ZDcyODIyMDZi/MzFmOWNhNjE3Y2E4/Y2YzMThjNjljNDIx/ZjllZmNhYTcwODhl/YTcwNDEzYy9tZWRp/dW0uY29tLw",
+          "path": "› star-gazers  › what-is-singleton-pattern-and-what-is-the-advantage-of-it-43f09509aa7f"
+        },
+        "thumbnail": {
+          "src": "https://imgs.search.brave.com/Tccr63lqMF-e_MPyDeGUTXSoLuqA84c5WR8LEcb7gR8/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9taXJv/Lm1lZGl1bS5jb20v/MSpZaktBV3hwOEpE/dVRwcWN2dHhIaTJR/LnBuZw",
+          "original": "https://miro.medium.com/1*YjKAWxp8JDuTpqcvtxHi2Q.png",
+          "logo": false
+        },
+        "age": "October 25, 2020"
+      },
+      {
+        "title": "Singleton",
+        "url": "https://refactoring.guru/design-patterns/singleton",
+        "is_source_local": false,
+        "is_source_both": false,
+        "description": "Singleton is <strong>a creational design pattern that lets you ensure that a class has only one instance, while providing a global access point to this instance</strong>.",
+        "page_age": "2025-01-01T00:00:00",
+        "profile": {
+          "name": "Refactoring.Guru",
+          "url": "https://refactoring.guru/design-patterns/singleton",
+          "long_name": "refactoring.guru",
+          "img": "https://imgs.search.brave.com/usWtaUOx2NobSjPvdqpucXzOkpRghNwMFBJOIKMPBj0/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvMmY2NzEyOGM1/M2U1NDA4ZWQ4NTU0/MmIyNWM1OGFjMmFi/ODIyNzJiNWNhNzNh/OTZlMjE3OTIxYjRm/YTMwNzdlMS9yZWZh/Y3RvcmluZy5ndXJ1/Lw"
+        },
+        "language": "en",
+        "family_friendly": true,
+        "type": "search_result",
+        "subtype": "article",
+        "is_live": false,
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "refactoring.guru",
+          "hostname": "refactoring.guru",
+          "favicon": "https://imgs.search.brave.com/usWtaUOx2NobSjPvdqpucXzOkpRghNwMFBJOIKMPBj0/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvMmY2NzEyOGM1/M2U1NDA4ZWQ4NTU0/MmIyNWM1OGFjMmFi/ODIyNzJiNWNhNzNh/OTZlMjE3OTIxYjRm/YTMwNzdlMS9yZWZh/Y3RvcmluZy5ndXJ1/Lw",
+          "path": "  › home  › design patterns  › creational patterns"
+        },
+        "thumbnail": {
+          "src": "https://imgs.search.brave.com/HKTfex-63NblF6T_tj1QI_KZ2SjMCd_RpPeYbTKfQ5M/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9yZWZh/Y3RvcmluZy5ndXJ1/L2ltYWdlcy9yZWZh/Y3RvcmluZy9zb2Np/YWwvZmFjZWJvb2st/c2hhcmUtcHJldmll/dy5wbmc_aWQ9ZGJm/OWU5ODI2OTU5NWJl/ODZlYjY2OGYzNjVi/ZTY4Njg",
+          "original": "https://refactoring.guru/images/refactoring/social/facebook-share-preview.png?id=dbf9e98269595be86eb668f365be6868",
+          "logo": false
+        },
+        "age": "January 1, 2025"
+      },
+      {
+        "title": "What is Singleton? Pros and Cons of Singleton. | by Nehang Patel | Medium",
+        "url": "https://medium.com/@nerapa21/what-is-singleton-pros-and-cons-of-singleton-a6a750fff965",
+        "is_source_local": false,
+        "is_source_both": false,
+        "description": "<strong>What is Singleton</strong>? Pros and Cons of Singleton. <strong>What is Singleton</strong>? In Dart, a Singleton is a design pattern that restricts the instantiation of a class to a single object instance throughout the …",
+        "page_age": "2023-04-12T10:46:28",
+        "profile": {
+          "name": "Medium",
+          "url": "https://medium.com/@nerapa21/what-is-singleton-pros-and-cons-of-singleton-a6a750fff965",
+          "long_name": "medium.com",
+          "img": "https://imgs.search.brave.com/4R4hFITz_F_be0roUiWbTZKhsywr3fnLTMTkFL5HFow/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvOTZhYmQ1N2Q4/NDg4ZDcyODIyMDZi/MzFmOWNhNjE3Y2E4/Y2YzMThjNjljNDIx/ZjllZmNhYTcwODhl/YTcwNDEzYy9tZWRp/dW0uY29tLw"
+        },
+        "language": "en",
+        "family_friendly": true,
+        "type": "search_result",
+        "subtype": "article",
+        "is_live": false,
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "medium.com",
+          "hostname": "medium.com",
+          "favicon": "https://imgs.search.brave.com/4R4hFITz_F_be0roUiWbTZKhsywr3fnLTMTkFL5HFow/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvOTZhYmQ1N2Q4/NDg4ZDcyODIyMDZi/MzFmOWNhNjE3Y2E4/Y2YzMThjNjljNDIx/ZjllZmNhYTcwODhl/YTcwNDEzYy9tZWRp/dW0uY29tLw",
+          "path": "› @nerapa21  › what-is-singleton-pros-and-cons-of-singleton-a6a750fff965"
+        },
+        "thumbnail": {
+          "src": "https://imgs.search.brave.com/ufxyH4pCuFjeex6H8v2xmAAu24kFNRjBWPc0bj86uys/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9taXJv/Lm1lZGl1bS5jb20v/MSpJUC0tcEE5MGZq/aHhBc1N6MUpxd2t3/LnBuZw",
+          "original": "https://miro.medium.com/1*IP--pA90fjhxAsSz1Jqwkw.png",
+          "logo": false
+        },
+        "age": "April 12, 2023"
+      },
+      {
+        "title": "java - What is a singleton, in plain English? - Stack Overflow",
+        "url": "https://stackoverflow.com/questions/14974016/what-is-a-singleton-in-plain-english",
+        "is_source_local": false,
+        "is_source_both": false,
+        "description": "Note the distinction between a simple static instance of a class and a singleton: although a singleton can be implemented as a static instance, it can also be lazily constructed, requiring no memory or resources until needed. Another notable difference is that static member classes cannot implement an interface, unless that interface is simply a marker.",
+        "profile": {
+          "name": "Stack Overflow",
+          "url": "https://stackoverflow.com/questions/14974016/what-is-a-singleton-in-plain-english",
+          "long_name": "stackoverflow.com",
+          "img": "https://imgs.search.brave.com/4WRMec_wn8Q9LO6DI43kkBvIL6wD5TYCXztC9C9kEI0/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNWU3Zjg0ZjA1/YjQ3ZTlkNjQ1ODA1/MjAwODhiNjhjYWU0/OTc4MjM4ZDJlMTBi/ODExYmNiNTkzMjdh/YjM3MGExMS9zdGFj/a292ZXJmbG93LmNv/bS8"
+        },
+        "language": "en",
+        "family_friendly": true,
+        "type": "search_result",
+        "subtype": "qa",
+        "is_live": false,
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "stackoverflow.com",
+          "hostname": "stackoverflow.com",
+          "favicon": "https://imgs.search.brave.com/4WRMec_wn8Q9LO6DI43kkBvIL6wD5TYCXztC9C9kEI0/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNWU3Zjg0ZjA1/YjQ3ZTlkNjQ1ODA1/MjAwODhiNjhjYWU0/OTc4MjM4ZDJlMTBi/ODExYmNiNTkzMjdh/YjM3MGExMS9zdGFj/a292ZXJmbG93LmNv/bS8",
+          "path": "› questions  › 14974016  › what-is-a-singleton-in-plain-english"
+        },
+        "thumbnail": {
+          "src": "https://imgs.search.brave.com/7xYts7jy_f89pn-IFVr8VxO1jMDhot5Ln0Buo0It8EM/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9zdGFj/a292ZXJmbG93LmNv/bS9Db250ZW50L1Np/dGVzL3N0YWNrb3Zl/cmZsb3cvSW1nL2Fw/cGxlLXRvdWNoLWlj/b25AMi5wbmc_dj03/M2Q3OWE4OWJkZWQ",
+          "original": "https://stackoverflow.com/Content/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded",
+          "logo": true
+        }
+      },
+      {
+        "title": "r/csharp on Reddit: What, when why Singleton design pattern?",
+        "url": "https://www.reddit.com/r/csharp/comments/d37bp2/what_when_why_singleton_design_pattern/",
+        "is_source_local": false,
+        "is_source_both": false,
+        "description": "Singleton design patterns in our hardware drivers, to ensure a hardware or electrical system is associated only with a single object in software, to prevent the components from receiving conflicting instructions, or from the software storing conflicting state information.",
+        "page_age": "2019-09-12T12:41:23",
+        "profile": {
+          "name": "Reddit",
+          "url": "https://www.reddit.com/r/csharp/comments/d37bp2/what_when_why_singleton_design_pattern/",
+          "long_name": "reddit.com",
+          "img": "https://imgs.search.brave.com/U-eHNCapRHVNWWCVPPMTIvOofZULh0_A_FQKe8xTE4I/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvN2ZiNTU0M2Nj/MTFhZjRiYWViZDlk/MjJiMjBjMzFjMDRk/Y2IzYWI0MGI0MjVk/OGY5NzQzOGQ5NzQ5/NWJhMWI0NC93d3cu/cmVkZGl0LmNvbS8"
+        },
+        "language": "en",
+        "family_friendly": true,
+        "type": "search_result",
+        "subtype": "qa",
+        "is_live": false,
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "reddit.com",
+          "hostname": "www.reddit.com",
+          "favicon": "https://imgs.search.brave.com/U-eHNCapRHVNWWCVPPMTIvOofZULh0_A_FQKe8xTE4I/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvN2ZiNTU0M2Nj/MTFhZjRiYWViZDlk/MjJiMjBjMzFjMDRk/Y2IzYWI0MGI0MjVk/OGY5NzQzOGQ5NzQ5/NWJhMWI0NC93d3cu/cmVkZGl0LmNvbS8",
+          "path": "  › r/csharp  › what, when why singleton design pattern?"
+        },
+        "thumbnail": {
+          "src": "https://imgs.search.brave.com/1sE7etRw0xHqgnI_d3hWE0yve52oJYgqq3C3o0KTFVU/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9zaGFy/ZS5yZWRkLml0L3By/ZXZpZXcvcG9zdC9k/MzdicDI",
+          "original": "https://share.redd.it/preview/post/d37bp2",
+          "logo": false
+        },
+        "age": "September 12, 2019"
+      },
+      {
+        "title": "Java Singleton Design Pattern Best Practices with Examples | DigitalOcean",
+        "url": "https://www.digitalocean.com/community/tutorials/java-singleton-design-pattern-best-practices-examples",
+        "is_source_local": false,
+        "is_source_both": false,
+        "description": "To implement a singleton pattern, we have different approaches, but all of them have the following common concepts. Private constructor to restrict instantiation of the class from other classes. Private static variable of the same class that is the only instance of the class.",
+        "page_age": "2022-11-05T00:29:21",
+        "profile": {
+          "name": "DigitalOcean",
+          "url": "https://www.digitalocean.com/community/tutorials/java-singleton-design-pattern-best-practices-examples",
+          "long_name": "digitalocean.com",
+          "img": "https://imgs.search.brave.com/dE_vtEMxYDH3wV2HlQrtQ19g7v45wr72E9Du2m_lOYo/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNjZmYTIzYTI3/ZTk2NjRhZjUyZTE4/YmU5OTg0ZGM2YzQ1/YjNmZGQ0YzBlNjAz/NmQ4MTFhODFkYjRj/YTRmZDA0MC93d3cu/ZGlnaXRhbG9jZWFu/LmNvbS8"
+        },
+        "language": "en",
+        "family_friendly": true,
+        "type": "search_result",
+        "subtype": "article",
+        "is_live": false,
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "digitalocean.com",
+          "hostname": "www.digitalocean.com",
+          "favicon": "https://imgs.search.brave.com/dE_vtEMxYDH3wV2HlQrtQ19g7v45wr72E9Du2m_lOYo/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNjZmYTIzYTI3/ZTk2NjRhZjUyZTE4/YmU5OTg0ZGM2YzQ1/YjNmZGQ0YzBlNjAz/NmQ4MTFhODFkYjRj/YTRmZDA0MC93d3cu/ZGlnaXRhbG9jZWFu/LmNvbS8",
+          "path": "› community  › tutorials  › java-singleton-design-pattern-best-practices-examples"
+        },
+        "age": "November 5, 2022"
+      },
+      {
+        "title": "Explaining the Singleton Design Pattern — In Under 5 Minutes!",
+        "url": "https://www.linkedin.com/pulse/explaining-singleton-design-pattern-under-5-minutes-ercin-dedeoglu",
+        "is_source_local": false,
+        "is_source_both": false,
+        "description": "In mathematics, a singleton is defined as “<strong>a set that contains exactly one element</strong>”. This pattern is easy to understand and implement since it requires only a few lines of code and is relatively straightforward.",
+        "page_age": "2022-10-19T15:23:03",
+        "profile": {
+          "name": "LinkedIn",
+          "url": "https://www.linkedin.com/pulse/explaining-singleton-design-pattern-under-5-minutes-ercin-dedeoglu",
+          "long_name": "linkedin.com",
+          "img": "https://imgs.search.brave.com/B3dmoKTAgUkkbrvzAxFg_MfHAm5WmWy0N-4kH1AGWOo/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNGE1YzZjOWNj/NmNiODQ4NzI0ODg1/MGY5ZGQ2YzhjZTRm/N2NjOGIzZjc1NTlj/NDM2ZGI5Yjk3ZWI1/YzBmNzJmZS93d3cu/bGlua2VkaW4uY29t/Lw"
+        },
+        "language": "en",
+        "family_friendly": true,
+        "type": "search_result",
+        "subtype": "article",
+        "is_live": false,
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "linkedin.com",
+          "hostname": "www.linkedin.com",
+          "favicon": "https://imgs.search.brave.com/B3dmoKTAgUkkbrvzAxFg_MfHAm5WmWy0N-4kH1AGWOo/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNGE1YzZjOWNj/NmNiODQ4NzI0ODg1/MGY5ZGQ2YzhjZTRm/N2NjOGIzZjc1NTlj/NDM2ZGI5Yjk3ZWI1/YzBmNzJmZS93d3cu/bGlua2VkaW4uY29t/Lw",
+          "path": "› pulse  › explaining-singleton-design-pattern-under-5-minutes-ercin-dedeoglu"
+        },
+        "thumbnail": {
+          "src": "https://imgs.search.brave.com/oCJqmssrgieZ2xB24SsEyKS9KLOLjcJv6SatkQqmA98/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5saWNkbi5jb20v/ZG1zL2ltYWdlL0Q0/RDEyQVFGdjRyMlJj/aWZaY3cvYXJ0aWNs/ZS1jb3Zlcl9pbWFn/ZS1zaHJpbmtfNzIw/XzEyODAvMC8xNjY2/MTkyNzgyMDkxP2U9/MjE0NzQ4MzY0NyZ2/PWJldGEmdD1SZDZt/MHFmTHJfTS1OVVhZ/TGVHcHNSb0VZekw2/S1JFYmlsV0k3VThy/MU5B",
+          "original": "https://media.licdn.com/dms/image/D4D12AQFv4r2RcifZcw/article-cover_image-shrink_720_1280/0/1666192782091?e=2147483647&v=beta&t=Rd6m0qfLr_M-NUXYLeGpsRoEYzL6KREbilWI7U8r1NA",
+          "logo": false
+        },
+        "age": "October 19, 2022"
+      },
+      {
+        "title": "When is a Singleton not a Singleton?",
+        "url": "https://www.oracle.com/technical-resources/articles/java/singleton.html",
+        "is_source_local": false,
+        "is_source_both": false,
+        "description": "Singletons often control access to resources such as database connections or sockets. For example, if you have a license for only one connection for your database or your JDBC driver has trouble with multithreading, the Singleton makes sure that only one connection is made or that only one thread can access the connection at a time.",
+        "profile": {
+          "name": "Oracle",
+          "url": "https://www.oracle.com/technical-resources/articles/java/singleton.html",
+          "long_name": "oracle.com",
+          "img": "https://imgs.search.brave.com/8NYWA9PXfntPl-_mw9jwVc6P47zesMKLB9OVUHEHZyQ/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvMWE0NDI0ZmE5/OTk3ZWQzYjk3NDI5/YjQ5YWM2ZGIzODU1/MzI2ZjVhNzViNTcy/Zjc0OWViYzcwNjRi/ZWM1NzgzYS93d3cu/b3JhY2xlLmNvbS8"
+        },
+        "language": "en",
+        "family_friendly": true,
+        "type": "search_result",
+        "subtype": "generic",
+        "is_live": false,
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "oracle.com",
+          "hostname": "www.oracle.com",
+          "favicon": "https://imgs.search.brave.com/8NYWA9PXfntPl-_mw9jwVc6P47zesMKLB9OVUHEHZyQ/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvMWE0NDI0ZmE5/OTk3ZWQzYjk3NDI5/YjQ5YWM2ZGIzODU1/MzI2ZjVhNzViNTcy/Zjc0OWViYzcwNjRi/ZWM1NzgzYS93d3cu/b3JhY2xlLmNvbS8",
+          "path": "  › java  › technical details"
+        }
+      },
+      {
+        "title": "Singleton Method Design Pattern - GeeksforGeeks",
+        "url": "https://www.geeksforgeeks.org/system-design/singleton-design-pattern/",
+        "is_source_local": false,
+        "is_source_both": false,
+        "description": "The Singleton Design Pattern <strong>ensures that a class has only one instance and provides a global access point to it</strong>. It is used when we want centralized control of resources, such as managing database connections, configuration settings or logging.",
+        "page_age": "2026-01-21T00:00:00",
+        "profile": {
+          "name": "GeeksforGeeks",
+          "url": "https://www.geeksforgeeks.org/system-design/singleton-design-pattern/",
+          "long_name": "geeksforgeeks.org",
+          "img": "https://imgs.search.brave.com/bGE5KD5Za34la_MeOAt7584d1aXRWEQopsXEQyAALPw/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvYjBhOGQ3MmNi/ZWE5N2EwMmZjYzA1/ZTI0ZTFhMGUyMTE0/MGM0ZTBmMWZlM2Y2/Yzk2ODMxZTRhYTBi/NDdjYTE0OS93d3cu/Z2Vla3Nmb3JnZWVr/cy5vcmcv"
+        },
+        "language": "en",
+        "family_friendly": true,
+        "type": "search_result",
+        "subtype": "video",
+        "is_live": false,
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "geeksforgeeks.org",
+          "hostname": "www.geeksforgeeks.org",
+          "favicon": "https://imgs.search.brave.com/bGE5KD5Za34la_MeOAt7584d1aXRWEQopsXEQyAALPw/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvYjBhOGQ3MmNi/ZWE5N2EwMmZjYzA1/ZTI0ZTFhMGUyMTE0/MGM0ZTBmMWZlM2Y2/Yzk2ODMxZTRhYTBi/NDdjYTE0OS93d3cu/Z2Vla3Nmb3JnZWVr/cy5vcmcv",
+          "path": "  › system design  › singleton-design-pattern"
+        },
+        "thumbnail": {
+          "src": "https://imgs.search.brave.com/qZ2vhOIP88MOF0oWeoVAFJrdlm_fn4vHhFv1buV1i2k/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZWVrc2Zvcmdl/ZWtzLm9yZy93cC1j/b250ZW50L3VwbG9h/ZHMvMjAyNDAxMTIx/NjEwMzIvU2luZ2xl/dG9uLU1ldGhvZC1E/ZXNpZ24tUGF0dGVy/bi5qcGc",
+          "original": "https://media.geeksforgeeks.org/wp-content/uploads/20240112161032/Singleton-Method-Design-Pattern.jpg",
+          "logo": false
+        },
+        "age": "1 week ago"
+      },
+      {
+        "title": "Singleton Pattern",
+        "url": "https://www.patterns.dev/vanilla/singleton-pattern/",
+        "is_source_local": false,
+        "is_source_both": false,
+        "description": "In ES2015, creating global variables is fairly uncommon. The new let and const keyword prevent developers from accidentally polluting the global scope, by keeping variables declared with these two keywords block-scoped. The new module system in JavaScript makes creating globally accessible values easier without polluting the global scope, by being able to export values from a module, and import those values in other files. However, the common usecase for a Singleton is to have some sort of global state throughout your application.",
+        "profile": {
+          "name": "Patterns.dev",
+          "url": "https://www.patterns.dev/vanilla/singleton-pattern/",
+          "long_name": "patterns.dev",
+          "img": "https://imgs.search.brave.com/3o3GqIlhWYNCEQ5A8-hjlqsOCK2hxGMDs7d_4C4u5ow/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvYWEwMWEwOWUz/OWRiNGEzY2Y4MTEx/OGNkOGI3YjEzYjgz/YTM5NDRiOTVjODEw/ZjdkYjUyZmI5Zjgy/ODc1NjQ3Ny93d3cu/cGF0dGVybnMuZGV2/Lw"
+        },
+        "language": "en",
+        "family_friendly": true,
+        "type": "search_result",
+        "subtype": "generic",
+        "is_live": false,
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "patterns.dev",
+          "hostname": "www.patterns.dev",
+          "favicon": "https://imgs.search.brave.com/3o3GqIlhWYNCEQ5A8-hjlqsOCK2hxGMDs7d_4C4u5ow/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvYWEwMWEwOWUz/OWRiNGEzY2Y4MTEx/OGNkOGI3YjEzYjgz/YTM5NDRiOTVjODEw/ZjdkYjUyZmI5Zjgy/ODc1NjQ3Ny93d3cu/cGF0dGVybnMuZGV2/Lw",
+          "path": "› vanilla  › singleton-pattern"
+        },
+        "thumbnail": {
+          "src": "https://imgs.search.brave.com/H6AXaNgnol7HL9hs_0RfZarkcTt1SWeGy-UryflF5WU/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9yZXMu/Y2xvdWRpbmFyeS5j/b20vZGR4d2Rxd2ty/L2ltYWdlL3VwbG9h/ZC9mX2F1dG8vdjE2/MTQ5NjE3MjQvcGF0/dGVybnMuZGV2L3Np/bmdsZXRvbi1wYXR0/ZXJuLmpwZw",
+          "original": "https://res.cloudinary.com/ddxwdqwkr/image/upload/f_auto/v1614961724/patterns.dev/singleton-pattern.jpg",
+          "logo": false
+        }
+      },
+      {
+        "title": "What Is a Singleton? A Detailed Overview - Stackify",
+        "url": "https://stackify.com/what-is-a-singleton-a-detailed-overview/",
+        "is_source_local": false,
+        "is_source_both": false,
+        "description": "ResourcesExplore blogs, e-books and more. ... One of the most well-known design patterns, singleton <strong>ensures the existence of a single instance of a given class during the life of an application</strong>.",
+        "page_age": "2024-12-12T16:33:34",
+        "profile": {
+          "name": "Stackify",
+          "url": "https://stackify.com/what-is-a-singleton-a-detailed-overview/",
+          "long_name": "stackify.com",
+          "img": "https://imgs.search.brave.com/U02M5rMuvzLLrWgWtU20udEFYR8IqK5Q0X45v6OGhFU/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvYTg3MzY2ZTA3/ZjRhZWFhN2VjZTcw/Y2EzZTljNWY4ZjNh/ZGZjNjg3NjFlYjg0/ZmYwZDY4YzMyNTc1/OTk2MmM3Ni9zdGFj/a2lmeS5jb20v"
+        },
+        "language": "en",
+        "family_friendly": true,
+        "type": "search_result",
+        "subtype": "article",
+        "is_live": false,
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "stackify.com",
+          "hostname": "stackify.com",
+          "favicon": "https://imgs.search.brave.com/U02M5rMuvzLLrWgWtU20udEFYR8IqK5Q0X45v6OGhFU/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvYTg3MzY2ZTA3/ZjRhZWFhN2VjZTcw/Y2EzZTljNWY4ZjNh/ZGZjNjg3NjFlYjg0/ZmYwZDY4YzMyNTc1/OTk2MmM3Ni9zdGFj/a2lmeS5jb20v",
+          "path": "› what-is-a-singleton-a-detailed-overview"
+        },
+        "thumbnail": {
+          "src": "https://imgs.search.brave.com/cspc5tAeVc_v319myhrklIcdnrjM-FAyGHM2vOxYSQg/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9zdGFj/a2lmeS5jb20vd3At/Y29udGVudC91cGxv/YWRzLzIwMjQvMTIv/V2hhdC1Jcy1hLVNp/bmdsZXRvbl8ucG5n",
+          "original": "https://stackify.com/wp-content/uploads/2024/12/What-Is-a-Singleton_.png",
+          "logo": false
+        },
+        "age": "December 12, 2024"
+      },
+      {
+        "title": "Singleton (mathematics) - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Singleton_(mathematics)",
+        "is_source_local": false,
+        "is_source_both": false,
+        "description": "In mathematics, a singleton (also known as a unit set or one-point set) is <strong>a set with exactly one element</strong>. For example, the set ... Within the framework of Zermelo–Fraenkel set theory, the axiom of regularity guarantees that no set is an element of itself. This implies that a singleton is ...",
+        "page_age": "2025-07-12T09:36:20",
+        "profile": {
+          "name": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Singleton_(mathematics)",
+          "long_name": "en.wikipedia.org",
+          "img": "https://imgs.search.brave.com/m6XxME4ek8DGIUcEPCqjRoDjf2e54EwL9pQzyzogLYk/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNjQwNGZhZWY0/ZTQ1YWUzYzQ3MDUw/MmMzMGY3NTQ0ZjNj/NDUwMDk5ZTI3MWRk/NWYyNTM4N2UwOTE0/NTI3ZDQzNy9lbi53/aWtpcGVkaWEub3Jn/Lw"
+        },
+        "language": "en",
+        "family_friendly": true,
+        "type": "search_result",
+        "subtype": "generic",
+        "is_live": false,
+        "deep_results": {
+          "buttons": [
+            {
+              "type": "button_result",
+              "title": "Properties",
+              "url": "https://en.wikipedia.org/wiki/Singleton_(mathematics)#Properties"
+            },
+            {
+              "type": "button_result",
+              "title": "In category theory",
+              "url": "https://en.wikipedia.org/wiki/Singleton_(mathematics)#In_category_theory"
+            },
+            {
+              "type": "button_result",
+              "title": "Definition by indicator functions",
+              "url": "https://en.wikipedia.org/wiki/Singleton_(mathematics)#Definition_by_indicator_functions"
+            },
+            {
+              "type": "button_result",
+              "title": "Definition in Principia Mathematica",
+              "url": "https://en.wikipedia.org/wiki/Singleton_(mathematics)#Definition_in_Principia_Mathematica"
+            }
+          ]
+        },
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "en.wikipedia.org",
+          "hostname": "en.wikipedia.org",
+          "favicon": "https://imgs.search.brave.com/m6XxME4ek8DGIUcEPCqjRoDjf2e54EwL9pQzyzogLYk/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNjQwNGZhZWY0/ZTQ1YWUzYzQ3MDUw/MmMzMGY3NTQ0ZjNj/NDUwMDk5ZTI3MWRk/NWYyNTM4N2UwOTE0/NTI3ZDQzNy9lbi53/aWtpcGVkaWEub3Jn/Lw",
+          "path": "› wiki  › Singleton_(mathematics)"
+        },
+        "age": "July 12, 2025"
+      },
+      {
+        "title": "Singleton Design Pattern In C#",
+        "url": "https://www.c-sharpcorner.com/UploadFile/8911c4/singleton-design-pattern-in-C-Sharp/",
+        "is_source_local": false,
+        "is_source_both": false,
+        "description": "Singleton design pattern in C# is <strong>one of the most popular design patterns</strong>. In this pattern, a class has only one instance in the program that provides a global point of access to it.",
+        "page_age": "2023-06-06T00:00:00",
+        "profile": {
+          "name": "C# Corner",
+          "url": "https://www.c-sharpcorner.com/UploadFile/8911c4/singleton-design-pattern-in-C-Sharp/",
+          "long_name": "c-sharpcorner.com",
+          "img": "https://imgs.search.brave.com/SGI6wXEJsxxkwQLokW2sLNyoVKUtR-zcyWhNQ4CZJ2Q/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvOTI2MDc0Mjky/ZmJhZjNmY2NmMWRk/YTM5NzgzZmU3ZTQ2/NDQzZTE1ZThiYzU5/NTA0NDc0ZDJlYTBh/NWQ2ZTA4MC93d3cu/Yy1zaGFycGNvcm5l/ci5jb20v"
+        },
+        "language": "en",
+        "family_friendly": true,
+        "type": "search_result",
+        "subtype": "article",
+        "is_live": false,
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "c-sharpcorner.com",
+          "hostname": "www.c-sharpcorner.com",
+          "favicon": "https://imgs.search.brave.com/SGI6wXEJsxxkwQLokW2sLNyoVKUtR-zcyWhNQ4CZJ2Q/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvOTI2MDc0Mjky/ZmJhZjNmY2NmMWRk/YTM5NzgzZmU3ZTQ2/NDQzZTE1ZThiYzU5/NTA0NDc0ZDJlYTBh/NWQ2ZTA4MC93d3cu/Yy1zaGFycGNvcm5l/ci5jb20v",
+          "path": "› UploadFile  › 8911c4  › singleton-design-pattern-in-C-Sharp"
+        },
+        "thumbnail": {
+          "src": "https://imgs.search.brave.com/lZxfqQO9gp7Xqgay0pPdKNVbUjSI-9DnRNIgPPqKDWA/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly93d3cu/Yy1zaGFycGNvcm5l/ci5jb20vVXBsb2Fk/RmlsZS9NaW5vckNh/dEltYWdlcy9jc2hh/cnAtcHJvZ3JhbW1p/bmdfMDgyODIwMTc1/LnBuZw",
+          "original": "https://www.c-sharpcorner.com/UploadFile/MinorCatImages/csharp-programming_082820175.png",
+          "logo": false
+        },
+        "age": "June 6, 2023"
+      },
+      {
+        "title": "Understanding What the Singleton Pattern Costs You",
+        "url": "https://blog.ndepend.com/singleton-pattern-costs/",
+        "is_source_local": false,
+        "is_source_both": false,
+        "description": "So let’s consider implications and usage. When you use this pattern, you define an object that will exist across all application scope and that you can easily access from anywhere in the code at any time. A logger is, perhaps, the most iconic example of a singleton use case.",
+        "page_age": "2025-08-01T09:28:47",
+        "profile": {
+          "name": "NDepend",
+          "url": "https://blog.ndepend.com/singleton-pattern-costs/",
+          "long_name": "blog.ndepend.com",
+          "img": "https://imgs.search.brave.com/gJo5XcbVwcYVBBGiYlNSSQgq5MmRMQRJsqAvA9qZvgQ/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvMDViMDI4NWQ0/ZWM5NmQ1ZjEzMzRi/YmY1NWEyNjliNWZj/MzRhMmFiZDAxN2M3/NTdlZmUwYWYyOGY1/NDI0NzU2Ni9ibG9n/Lm5kZXBlbmQuY29t/Lw"
+        },
+        "language": "en",
+        "family_friendly": true,
+        "type": "search_result",
+        "subtype": "generic",
+        "is_live": false,
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "blog.ndepend.com",
+          "hostname": "blog.ndepend.com",
+          "favicon": "https://imgs.search.brave.com/gJo5XcbVwcYVBBGiYlNSSQgq5MmRMQRJsqAvA9qZvgQ/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvMDViMDI4NWQ0/ZWM5NmQ1ZjEzMzRi/YmY1NWEyNjliNWZj/MzRhMmFiZDAxN2M3/NTdlZmUwYWYyOGY1/NDI0NzU2Ni9ibG9n/Lm5kZXBlbmQuY29t/Lw",
+          "path": "  › home  › what the singleton pattern costs you"
+        },
+        "thumbnail": {
+          "src": "https://imgs.search.brave.com/9velfVnB6kS_bDhFDrBrcJVla08GarlUWFWbwdao6lQ/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9ibG9n/Lm5kZXBlbmQuY29t/L3dwLWNvbnRlbnQv/dXBsb2Fkcy9XaGF0/X3RoZV9TaW5nbGV0/b25fUGF0dGVybl9D/b3N0c19Zb3UucG5n",
+          "original": "https://blog.ndepend.com/wp-content/uploads/What_the_Singleton_Pattern_Costs_You.png",
+          "logo": false
+        },
+        "age": "August 1, 2025"
+      },
+      {
+        "title": "SINGLETON Definition & Meaning - Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/singleton",
+        "is_source_local": false,
+        "is_source_both": false,
+        "description": "The meaning of SINGLETON is <strong>a card that is the only one of its suit originally dealt to a player</strong>. How to use singleton in a sentence.",
+        "page_age": "2025-12-02T00:00:00",
+        "profile": {
+          "name": "Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/singleton",
+          "long_name": "merriam-webster.com",
+          "img": "https://imgs.search.brave.com/bi9FmWof5TzSvP5tKxg_pdJSHXMziocpI7_cq6ov5r0/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNzYwYjQ3N2Jj/NTBhNDkxYTExNjU0/NTFhZDdlMGI0NjJh/Y2M1ODcwOWQwYzc5/YTI2MmZkZjIxMGFk/N2NkZWMzYy93d3cu/bWVycmlhbS13ZWJz/dGVyLmNvbS8"
+        },
+        "language": "en",
+        "family_friendly": true,
+        "type": "search_result",
+        "subtype": "generic",
+        "is_live": false,
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "merriam-webster.com",
+          "hostname": "www.merriam-webster.com",
+          "favicon": "https://imgs.search.brave.com/bi9FmWof5TzSvP5tKxg_pdJSHXMziocpI7_cq6ov5r0/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNzYwYjQ3N2Jj/NTBhNDkxYTExNjU0/NTFhZDdlMGI0NjJh/Y2M1ODcwOWQwYzc5/YTI2MmZkZjIxMGFk/N2NkZWMzYy93d3cu/bWVycmlhbS13ZWJz/dGVyLmNvbS8",
+          "path": "› dictionary  › singleton"
+        },
+        "thumbnail": {
+          "src": "https://imgs.search.brave.com/bm0KAMlQNzmOllIUGR3mEs5IHZ5Vza39PqaM9cLhyDc/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9tZXJy/aWFtLXdlYnN0ZXIu/Y29tL2Fzc2V0cy9t/dy9zdGF0aWMvc29j/aWFsLW1lZGlhLXNo/YXJlL213LWxvZ28t/MjQ1eDI0NUAxeC5w/bmc",
+          "original": "https://merriam-webster.com/assets/mw/static/social-media-share/mw-logo-245x245@1x.png",
+          "logo": true
+        },
+        "age": "December 2, 2025"
+      },
+      {
+        "title": "design patterns - When is Singleton appropriate? - Software Engineering Stack Exchange",
+        "url": "https://softwareengineering.stackexchange.com/questions/252/when-is-singleton-appropriate",
+        "is_source_local": false,
+        "is_source_both": false,
+        "description": "As a result, when you test a class that relies on a Singleton (or any other static method or class) you are not only testing that class but also the static method or class. As a result of both of these, a common approach is to use create a broad container object to hold a single instance of these classes and only the container object modifies these types of classes while many other classes can be granted access to them to use from the container object.",
+        "profile": {
+          "name": "Stack Exchange",
+          "url": "https://softwareengineering.stackexchange.com/questions/252/when-is-singleton-appropriate",
+          "long_name": "softwareengineering.stackexchange.com",
+          "img": "https://imgs.search.brave.com/5AWQHT57k-Pq-o9Wxn25-hiktnz9ykHtGrXjELmAabY/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvZWM2Y2MzMTFi/ZTgwMTRlOWYxZGFk/YjA5YzRkZTM0MzY3/MzI0NDEyMGY0OGUw/NWJmOThiMTY0OTVk/Y2Y1Mzc5Ni9zb2Z0/d2FyZWVuZ2luZWVy/aW5nLnN0YWNrZXhj/aGFuZ2UuY29tLw"
+        },
+        "language": "en",
+        "family_friendly": true,
+        "type": "search_result",
+        "subtype": "qa",
+        "is_live": false,
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "softwareengineering.stackexchange.com",
+          "hostname": "softwareengineering.stackexchange.com",
+          "favicon": "https://imgs.search.brave.com/5AWQHT57k-Pq-o9Wxn25-hiktnz9ykHtGrXjELmAabY/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvZWM2Y2MzMTFi/ZTgwMTRlOWYxZGFk/YjA5YzRkZTM0MzY3/MzI0NDEyMGY0OGUw/NWJmOThiMTY0OTVk/Y2Y1Mzc5Ni9zb2Z0/d2FyZWVuZ2luZWVy/aW5nLnN0YWNrZXhj/aGFuZ2UuY29tLw",
+          "path": "› questions  › 252  › when-is-singleton-appropriate"
+        },
+        "thumbnail": {
+          "src": "https://imgs.search.brave.com/kCPJ8ClBDdBa515NsSldaFOk309EMn743KvmsHx68pI/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9zb2Z0/d2FyZWVuZ2luZWVy/aW5nLnN0YWNrZXhj/aGFuZ2UuY29tL0Nv/bnRlbnQvU2l0ZXMv/c29mdHdhcmVlbmdp/bmVlcmluZy9JbWcv/YXBwbGUtdG91Y2gt/aWNvbkAyLnBuZz92/PTFlZjczNjNmZWJi/YQ",
+          "original": "https://softwareengineering.stackexchange.com/Content/Sites/softwareengineering/Img/apple-touch-icon@2.png?v=1ef7363febba",
+          "logo": true
+        }
+      },
+      {
+        "title": "Singleton | LLD | AlgoMaster.io",
+        "url": "https://algomaster.io/learn/lld/singleton",
+        "is_source_local": false,
+        "is_source_both": false,
+        "description": "In this article, we will explore ... and cons. Singleton Pattern is <strong>a creational design pattern that guarantees a class has only one instance and provides a global point of access to it</strong>....",
+        "page_age": "2026-01-02T00:00:00",
+        "profile": {
+          "name": "AlgoMaster",
+          "url": "https://algomaster.io/learn/lld/singleton",
+          "long_name": "algomaster.io",
+          "img": "https://imgs.search.brave.com/Dq9ZB64S8e-YH8kLz4VYnebfs_dEF9YF7GS6d1p4yis/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvN2IzOGNkNzhh/N2YzNzFjNjk1ZTRm/MjNhZDQ5ZmY1ZjY1/OGIzNzQxMmE1ZDM3/M2IyNzkyMTBlOWRl/YmI4NTVkZS9hbGdv/bWFzdGVyLmlvLw"
+        },
+        "language": "en",
+        "family_friendly": true,
+        "type": "search_result",
+        "subtype": "generic",
+        "is_live": false,
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "algomaster.io",
+          "hostname": "algomaster.io",
+          "favicon": "https://imgs.search.brave.com/Dq9ZB64S8e-YH8kLz4VYnebfs_dEF9YF7GS6d1p4yis/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvN2IzOGNkNzhh/N2YzNzFjNjk1ZTRm/MjNhZDQ5ZmY1ZjY1/OGIzNzQxMmE1ZDM3/M2IyNzkyMTBlOWRl/YmI4NTVkZS9hbGdv/bWFzdGVyLmlvLw",
+          "path": "› learn  › lld  › singleton"
+        },
+        "thumbnail": {
+          "src": "https://imgs.search.brave.com/auQaZ5hwV5_m9p935HC0ba2q7M4qEz0YeZTCcoKstfM/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9hbGdv/bWFzdGVyLmlvL29n/LWltYWdlLnBuZw",
+          "original": "https://algomaster.io/og-image.png",
+          "logo": false
+        },
+        "age": "1 month ago"
+      },
+      {
+        "title": "What is a singleton in programming? - Quora",
+        "url": "https://www.quora.com/What-is-a-singleton-in-programming",
+        "is_source_local": false,
+        "is_source_both": false,
+        "description": "Answer (1 of 5): The basic idea of a singleton is <strong>a class that will have exactly one instance of itself for the entire life of the program</strong>. What makes a singleton a singleton is the tricks of syntax or structure used to enforce that under the ...",
+        "profile": {
+          "name": "Quora",
+          "url": "https://www.quora.com/What-is-a-singleton-in-programming",
+          "long_name": "quora.com",
+          "img": "https://imgs.search.brave.com/jGre8FRmkjFxQij3rGpjeFOF-u1NLnEoE4FiyrJhNLI/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvYjg3ZTk4MDVm/ZTE3YzUxZTc4Yjc3/YTE2MGI3MGVhNmQ2/MGE0Yjc4NzRhMmM1/ODMxYTIwNzI1ZjI0/NDkyZDI2Yy93d3cu/cXVvcmEuY29tLw"
+        },
+        "language": "en",
+        "family_friendly": true,
+        "type": "search_result",
+        "subtype": "generic",
+        "is_live": false,
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "quora.com",
+          "hostname": "www.quora.com",
+          "favicon": "https://imgs.search.brave.com/jGre8FRmkjFxQij3rGpjeFOF-u1NLnEoE4FiyrJhNLI/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvYjg3ZTk4MDVm/ZTE3YzUxZTc4Yjc3/YTE2MGI3MGVhNmQ2/MGE0Yjc4NzRhMmM1/ODMxYTIwNzI1ZjI0/NDkyZDI2Yy93d3cu/cXVvcmEuY29tLw",
+          "path": "› What-is-a-singleton-in-programming"
+        },
+        "thumbnail": {
+          "src": "https://imgs.search.brave.com/jzoMI1qsvRg9lRoA6_c6CaOoZ4-gKf0M64uI-ZMzzQ8/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9xcGgu/Y2YyLnF1b3JhY2Ru/Lm5ldC9tYWluLWN1/c3RvbS10LTg5Ny02/MDB4MzE1LWF4dmdo/ZGF1eGdib212c2Jq/dmlmdml4eHpyaHll/Y2ZsLmpwZWc",
+          "original": "https://qph.cf2.quoracdn.net/main-custom-t-897-600x315-axvghdauxgbomvsbjvifvixxzrhyecfl.jpeg",
+          "logo": false
+        }
+      }
+    ],
+    "family_friendly": true
+  }
+}

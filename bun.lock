@@ -5,6 +5,9 @@
     "": {
       "name": "my-agent",
       "dependencies": {
+        "@ai-sdk/anthropic": "^3.0.30",
+        "@ai-sdk/google": "^3.0.17",
+        "@ai-sdk/openai": "^3.0.22",
         "@inquirer/core": "^11.1.1",
         "@inquirer/prompts": "^8.2.0",
         "ai": "^6.0.59",
@@ -21,7 +24,13 @@
     },
   },
   "packages": {
+    "@ai-sdk/anthropic": ["@ai-sdk/anthropic@3.0.30", "", { "dependencies": { "@ai-sdk/provider": "3.0.5", "@ai-sdk/provider-utils": "4.0.10" }, "peerDependencies": { "zod": "^3.25.76 || ^4.1.8" } }, "sha512-PrmbHUWxwlrF9JCiFasUi7fnkYQEQjnsYhVDt3K0mNK2W5hvXSYN9Lq1TOjZQfZI4jt/OyVF2XRamjQTQsaw7Q=="],
+
     "@ai-sdk/gateway": ["@ai-sdk/gateway@3.0.27", "", { "dependencies": { "@ai-sdk/provider": "3.0.5", "@ai-sdk/provider-utils": "4.0.10", "@vercel/oidc": "3.1.0" }, "peerDependencies": { "zod": "^3.25.76 || ^4.1.8" } }, "sha512-Pr+ApS9k6/jcR3kNltJNxo60OdYvnVU4DeRhzVtxUAYTXCHx4qO+qTMG9nNRn+El1acJnNRA//Su47srjXkT/w=="],
+
+    "@ai-sdk/google": ["@ai-sdk/google@3.0.17", "", { "dependencies": { "@ai-sdk/provider": "3.0.5", "@ai-sdk/provider-utils": "4.0.10" }, "peerDependencies": { "zod": "^3.25.76 || ^4.1.8" } }, "sha512-xJjwu9lYUu8zS8dXmCKhSQQ+g58jPEgkcccOpKb0kIhTbBfR0ABgxJ9daBZhXQ+ypW2z+lkdKbQKbIfBMdPl1Q=="],
+
+    "@ai-sdk/openai": ["@ai-sdk/openai@3.0.22", "", { "dependencies": { "@ai-sdk/provider": "3.0.5", "@ai-sdk/provider-utils": "4.0.10" }, "peerDependencies": { "zod": "^3.25.76 || ^4.1.8" } }, "sha512-vXUWmecj1ypA+SteXKQ9VDxsNTCJDqDPQNd8kQD2PLW6XMCCaaTLFbYSGmp25puPY6K5GLabTLlQWldZYP03Pw=="],
 
     "@ai-sdk/provider": ["@ai-sdk/provider@3.0.5", "", { "dependencies": { "json-schema": "^0.4.0" } }, "sha512-2Xmoq6DBJqmSl80U6V9z5jJSJP7ehaJJQMy2iFUqTay06wdCqTnPVBBQbtEL8RCChenL+q5DC5H5WzU3vV3v8w=="],
 

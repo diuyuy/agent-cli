@@ -5,8 +5,8 @@ import { MODEL_PROVIDERS } from "./common/constants/model-provider";
 import userInput from "./common/utils/user-input";
 import { AIService } from "./features/ai/ai.service";
 
-export const getUserAnswer = async () => {
-  let answer: string;
+export const getUserQuery = async () => {
+  let query: string;
 
   while (true) {
     const input = await userInput({
@@ -14,7 +14,7 @@ export const getUserAnswer = async () => {
     });
 
     if (input === COMMAND_NAME.EDITOR) {
-      answer = await editor({
+      query = await editor({
         message: "",
       });
       break;
@@ -31,9 +31,9 @@ export const getUserAnswer = async () => {
       continue;
     }
 
-    answer = input;
+    query = input;
     break;
   }
 
-  return answer;
+  return query;
 };

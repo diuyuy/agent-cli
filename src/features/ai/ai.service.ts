@@ -1,3 +1,4 @@
+import { createAgent } from "./agents/my-agent";
 import type { ModelProvider } from "./types/types";
 
 export class AIService {
@@ -24,5 +25,7 @@ export class AIService {
     return this.model;
   }
 
-  streamText() {}
+  generateResponse(query: string) {
+    const agent = createAgent(this.model);
+  }
 }

@@ -1,13 +1,9 @@
-import { AIService } from "./features/ai/ai.service";
-import { getUserAnswer } from "./get-user-answer";
+import { getUserQuery } from "./get-user-query";
 
 async function main() {
   try {
-    const anwser = await getUserAnswer();
+    const anwser = await getUserQuery();
     console.log("🚀 ~ main ~ anwser:", anwser);
-
-    const aiService = AIService.getInstance();
-    console.log(aiService.getModel());
   } catch (error) {
     if (error instanceof Error && error.name === "ExitPromptError") {
       return;
