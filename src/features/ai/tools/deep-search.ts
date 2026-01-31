@@ -1,7 +1,7 @@
 import { google } from "@ai-sdk/google";
 import { generateText, Output, tool } from "ai";
 import z from "zod";
-import { sanitizeFileName } from "../../../common/utils/sanitize-file-name";
+import { sanitizeFileName } from "../../../utils/sanitize-file-name";
 import { braveSearch } from "../../brave-search/brave-search";
 import { DEEP_SEARCH_INSTRUCTIONS } from "../instructions/deep-search-instructions";
 

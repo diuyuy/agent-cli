@@ -15,7 +15,6 @@ import {
 import { styleText } from "node:util";
 
 import type { PartialDeep } from "@inquirer/type";
-import { COMMANDS } from "../constants/commands";
 
 type Command = {
   value: string;
@@ -24,7 +23,7 @@ type Command = {
 
 type PromptConfig = {
   message: string;
-  commands?: Command[];
+  commands: Command[];
   theme?: PartialDeep<Theme>;
 };
 
@@ -38,7 +37,7 @@ const userInput = createPrompt<string, PromptConfig>((config, done) => {
 
   const prefix = usePrefix({ status, theme });
 
-  const commands = (config.commands ?? COMMANDS).filter((cmd) =>
+  const commands = config.commands.filter((cmd) =>
     cmd.value.toLowerCase().startsWith(value.toLowerCase()),
   );
 

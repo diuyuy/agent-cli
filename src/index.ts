@@ -1,9 +1,23 @@
-import { getUserQuery } from "./get-user-query";
+import { createAIService } from "./features/ai/create-ai-service";
+import { CommandProcessor } from "./handlers/command-processor";
+import { createCommandHandlers } from "./handlers/create-command-handlers";
+import { UserQueryHandler } from "./handlers/use-query-handler";
+import { SessionManager } from "./state/session-manager";
 
 async function main() {
   try {
-    const anwser = await getUserQuery();
-    console.log("🚀 ~ main ~ anwser:", anwser);
+    const handlers = createCommandHandlers();
+    const aiService = createAIService();
+
+    const commandProcessor = new CommandProcessor(handlers);
+    const userQueryHandler = new UserQueryHandler(commandProcessor);
+    const sessionManager = new SessionManager(aiService);
+
+    while (true) {
+      const anwser = await userQueryHandler.getUserQuery(sessionManager);
+
+      await aiService.generateResponse(anwser);
+    }
   } catch (error) {
     if (error instanceof Error && error.name === "ExitPromptError") {
       return;
