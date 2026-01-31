@@ -9,9 +9,9 @@ async function main() {
   const handlers = createCommandHandlers();
   const aiService = createAIService();
 
+  const sessionManager = new SessionManager(aiService);
   const commandProcessor = new CommandProcessor(handlers);
   const userQueryHandler = new UserQueryHandler(commandProcessor);
-  const sessionManager = new SessionManager(aiService);
 
   try {
     while (true) {

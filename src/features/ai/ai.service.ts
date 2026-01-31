@@ -76,15 +76,26 @@ export class AIService {
     };
 
     process.stdin.on("data", keyPressHandler);
+    let isFirstChunk = true;
 
     try {
       const result = await agent.stream({
         messages: this.modelMessages,
         abortSignal: abortController.signal,
+        onStepFinish: ({ toolCalls, toolResults }) => {
+          spinner.stop();
+          isFirstChunk = false;
+          if (toolCalls.length > 0) {
+            console.log(JSON.stringify(toolCalls, null, 2));
+          }
+          if (toolResults.length > 0) {
+            console.log(JSON.stringify(toolResults, null, 2));
+          }
+        },
       });
 
       // 스트림 처리
-      let isFirstChunk = true;
+
       for await (const chunk of result.textStream) {
         if (isFirstChunk) {
           spinner.stop();

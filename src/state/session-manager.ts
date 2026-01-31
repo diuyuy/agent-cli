@@ -126,6 +126,8 @@ export class SessionManager {
     this.isLoaded = false;
     this.sessionName = null;
     this.aiService.clearMessages();
+
+    console.log("\n", chalk.blue("세션이 클리어 되었습니다."));
   }
 
   // * Update Model

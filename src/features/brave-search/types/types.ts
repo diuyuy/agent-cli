@@ -11,7 +11,7 @@ export interface BraveSearchResult {
 }
 
 export interface BraveSearchErrorResponse {
-  errors: {
+  error: {
     detail: string;
-  }[];
+  };
 }

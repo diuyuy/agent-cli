@@ -3,7 +3,7 @@ import type {
   BraveSearchResult,
 } from "./types/types";
 
-export const braveSearch = async (query: string) => {
+export const braveSearch = async (query: string, count?: number) => {
   const apiKey = process.env.BRAVE_SEARCH_API_KEY;
   if (!apiKey) {
     throw new Error("Brave Search API_KEY가 존재하지 않습니다.");
@@ -12,7 +12,7 @@ export const braveSearch = async (query: string) => {
   const requestUrl = new URL("https://api.search.brave.com/res/v1/web/search");
 
   requestUrl.searchParams.append("q", query);
-  requestUrl.searchParams.append("count", "20");
+  requestUrl.searchParams.append("count", String(count));
 
   const response = await fetch(requestUrl, {
     method: "GET",
@@ -25,8 +25,12 @@ export const braveSearch = async (query: string) => {
   if (!response.ok) {
     const errorData: BraveSearchErrorResponse =
       (await response.json()) as BraveSearchErrorResponse;
+    console.log(
+      "🚀 ~ braveSearch ~ errorData:",
+      JSON.stringify(errorData, null, 2),
+    );
 
-    throw new Error(errorData.errors[0]?.detail ?? "Brave Search Error");
+    throw new Error(errorData.error.detail ?? "Brave Search Error");
   }
 
   const responseData = (await response.json()) as BraveSearchResult;

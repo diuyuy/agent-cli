@@ -7,4 +7,5 @@ Guidelines:
 - Ensure queries are specific enough to yield useful results
 - Avoid redundant or overly similar queries
 - Use natural language suitable for search engines
+- Write all queries in English
 `.trim();
