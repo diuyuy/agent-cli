@@ -1,6 +1,7 @@
 import type { ModelMessage } from "ai";
 import chalk from "chalk";
 import ora from "ora";
+import { printSeparator } from "../../utils/print-seperator";
 import type { IAgentFactory } from "./agents/agent-factory";
 import type { ModelProvider } from "./types/types";
 
@@ -63,15 +64,14 @@ export class AIService {
 
     const keyPressHandler = (key: string) => {
       // ESC 키 코드: \x1b 또는 \u001b
+
       if (key === "\x1b") {
-        console.log("\n\n⚠️  Stream aborted by user");
         abortController.abort();
-        cleanup();
       }
+
       // Ctrl+C 처리
       if (key === "\x03") {
         abortController.abort();
-        process.exit();
       }
     };
 
@@ -89,13 +89,14 @@ export class AIService {
         if (isFirstChunk) {
           spinner.stop();
           isFirstChunk = false;
-          console.log(chalk.gray("\nAI Response\n" + "-".repeat(100)), "\n");
+          console.log(chalk.gray("\nAI Response"));
+          printSeparator();
         }
 
         process.stdout.write(chunk);
       }
-
-      console.log("\n", chalk.gray("-").repeat(100), "\n");
+      console.log("");
+      printSeparator();
 
       const generatedMessages = (await result.response).messages;
 
@@ -104,11 +105,7 @@ export class AIService {
       spinner.stop();
       this.modelMessages.pop();
 
-      if (error instanceof Error && error.name === "AbortError") {
-        console.log("Stream was cancelled");
-      } else {
-        throw error;
-      }
+      throw error;
     } finally {
       cleanup();
     }

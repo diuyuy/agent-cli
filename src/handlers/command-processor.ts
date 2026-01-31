@@ -1,6 +1,7 @@
 import chalk from "chalk";
 import { IsNotCommand } from "../errors/is-not-command";
 import type { SessionManager } from "../state/session-manager";
+import { printSeparator } from "../utils/print-seperator";
 import type { CommandHandler } from "./create-command-handlers";
 
 export class CommandProcessor {
@@ -15,17 +16,13 @@ export class CommandProcessor {
 
     try {
       await handler(sessionManager);
-      this.printSeparator();
+      printSeparator();
     } catch (error) {
       if (error instanceof Error && error.name === "ExitPromptError") {
         throw error;
       }
       console.error(chalk.red("명령어 처리 중 오류가 발생했습니다:"), error);
-      this.printSeparator();
+      printSeparator();
     }
-  }
-
-  private printSeparator(): void {
-    console.log(chalk.gray("-".repeat(100)));
   }
 }
