@@ -76,29 +76,32 @@ export class AIService {
     };
 
     process.stdin.on("data", keyPressHandler);
-    let isFirstChunk = true;
 
     try {
       const result = await agent.stream({
         messages: this.modelMessages,
         abortSignal: abortController.signal,
         onStepFinish: ({ toolCalls, toolResults }) => {
-          spinner.stop();
-          isFirstChunk = false;
+          if (spinner.isSpinning) {
+            spinner.stop();
+          }
+
           if (toolCalls.length > 0) {
-            console.log(JSON.stringify(toolCalls, null, 2));
+            console.log(chalk.gray(JSON.stringify(toolCalls, null, 2)), "\n");
           }
           if (toolResults.length > 0) {
-            console.log(JSON.stringify(toolResults, null, 2));
+            console.log(chalk.gray(JSON.stringify(toolResults, null, 2)), "\n");
           }
         },
       });
 
       // 스트림 처리
-
+      let isFirstChunk = true;
       for await (const chunk of result.textStream) {
         if (isFirstChunk) {
-          spinner.stop();
+          if (spinner.isSpinning) {
+            spinner.stop();
+          }
           isFirstChunk = false;
           console.log(chalk.gray("\nAI Response"));
           printSeparator();

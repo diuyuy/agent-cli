@@ -1,5 +1,6 @@
 import { google } from "@ai-sdk/google";
 import { generateText, Output, tool } from "ai";
+import chalk from "chalk";
 import path from "path";
 import z from "zod";
 import { DEEP_SEARCH_RESULT_PATH } from "../../../constants/app-constants";
@@ -47,14 +48,14 @@ export const deepSearch = tool({
         results.push(
           `## ${searchQuery}:\n\n ${JSON.stringify(webResults, null, 2)}`,
         );
-        urls.push(...searchResult.web.results.map(({ url }) => url));
+        urls.push(...webResults.map(({ url }) => url));
 
         if (isFirstQuery) {
           isFirstQuery = false;
         }
       }
 
-      results.push(`## URL List\n\n${urls.join("\n\n")}`);
+      results.push(`## URL List\n\n${urls.join("\n")}`);
 
       const filepath = path.join(
         process.cwd(),
@@ -62,7 +63,24 @@ export const deepSearch = tool({
         `${sanitizeFileName(target)}.md`,
       );
 
-      await Bun.write(filepath, results.join("\n\n"));
+      const urlsPath = path.join(
+        process.cwd(),
+        DEEP_SEARCH_RESULT_PATH,
+        `${sanitizeFileName(target)}-urls.txt`,
+      );
+
+      const [saveMarkdownResult, saveUrlsResult] = await Promise.allSettled([
+        Bun.write(filepath, results.join("\n\n")),
+        Bun.write(urlsPath, urls.join("\n")),
+      ]);
+
+      if (saveMarkdownResult.status === "rejected") {
+        console.log(chalk.red("Markdown 저장을 실패했습니다."));
+      }
+
+      if (saveUrlsResult.status === "rejected") {
+        console.log(chalk.red("URL 리스트 저장을 실패했습니다."));
+      }
 
       return {
         output: "작업을 성공적으로 완료했습니다.",

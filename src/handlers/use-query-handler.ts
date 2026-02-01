@@ -1,13 +1,13 @@
 import { editor } from "@inquirer/prompts";
 import { COMMAND_NAME, COMMANDS } from "../constants/commands";
-import type { SessionManager } from "../state/session-manager";
+import type { StateManager } from "../state/state-manager";
 import userInput from "../utils/user-input";
 import type { CommandProcessor } from "./command-processor";
 
 export class UserQueryHandler {
   constructor(private readonly commandProcessor: CommandProcessor) {}
 
-  async getUserQuery(sessionManger: SessionManager) {
+  async getUserQuery(stateManager: StateManager) {
     while (true) {
       const answer = await userInput({
         message: ">",
@@ -21,7 +21,7 @@ export class UserQueryHandler {
       }
 
       if (this.isCommand(answer)) {
-        await this.commandProcessor.process(answer, sessionManger);
+        await this.commandProcessor.process(answer, stateManager);
 
         continue;
       }

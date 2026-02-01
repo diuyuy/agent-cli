@@ -2,20 +2,20 @@ import { createAIService } from "./features/ai/create-ai-service";
 import { CommandProcessor } from "./handlers/command-processor";
 import { createCommandHandlers } from "./handlers/create-command-handlers";
 import { UserQueryHandler } from "./handlers/use-query-handler";
-import { SessionManager } from "./state/session-manager";
+import { StateManager } from "./state/state-manager";
 import { printSeparator } from "./utils/print-seperator";
 
 async function main() {
   const handlers = createCommandHandlers();
   const aiService = createAIService();
 
-  const sessionManager = new SessionManager(aiService);
+  const stateManager = new StateManager(aiService);
   const commandProcessor = new CommandProcessor(handlers);
   const userQueryHandler = new UserQueryHandler(commandProcessor);
 
   try {
     while (true) {
-      const anwser = await userQueryHandler.getUserQuery(sessionManager);
+      const anwser = await userQueryHandler.getUserQuery(stateManager);
 
       try {
         await aiService.generateResponse(anwser);

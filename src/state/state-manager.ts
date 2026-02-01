@@ -8,12 +8,12 @@ import { SESSION_PATH } from "../constants/app-constants";
 import type { AIService } from "../features/ai/ai.service";
 import { sanitizeFileName } from "../utils/sanitize-file-name";
 
-export class SessionManager {
-  private isLoaded: boolean;
+export class StateManager {
+  private isLoadedSession: boolean;
   private sessionName: string | null;
 
   constructor(private readonly aiService: AIService) {
-    this.isLoaded = false;
+    this.isLoadedSession = false;
     this.sessionName = null;
     this.aiService = aiService;
   }
@@ -21,12 +21,12 @@ export class SessionManager {
   // * Save Session
   async save(): Promise<void> {
     try {
-      if (this.isLoaded) {
+      if (this.isLoadedSession) {
         await this.saveExistingSession();
       } else {
         await this.saveNewSession();
       }
-      console.log("\n", chalk.blue("세션이 성공적으로 저장되었습니다."));
+      console.log("\n", chalk.cyan("세션이 성공적으로 저장되었습니다."));
     } catch (error) {
       if (error instanceof Error && error.name === "ExitPromptError") {
         throw error;
@@ -37,7 +37,7 @@ export class SessionManager {
   }
 
   private setSession(sessionName: string) {
-    this.isLoaded = true;
+    this.isLoadedSession = true;
     this.sessionName = sessionName;
   }
 
@@ -95,7 +95,7 @@ export class SessionManager {
       });
 
       await this.loadSessionFile(sessionFileName);
-      console.log("\n", chalk.blue("세션이 성공적으로 로드되었습니다."));
+      console.log("\n", chalk.cyan("세션이 성공적으로 로드되었습니다."));
     } catch (error) {
       if (error instanceof Error && error.name === "ExitPromptError") {
         throw error;
@@ -123,11 +123,11 @@ export class SessionManager {
 
   // * Clear Session
   clearSession() {
-    this.isLoaded = false;
+    this.isLoadedSession = false;
     this.sessionName = null;
     this.aiService.clearMessages();
 
-    console.log("\n", chalk.blue("세션이 클리어 되었습니다."));
+    console.log("\n", chalk.cyan("세션이 클리어 되었습니다."));
   }
 
   // * Update Model

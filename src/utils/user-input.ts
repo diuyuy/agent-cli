@@ -104,8 +104,8 @@ const userInput = createPrompt<string, PromptConfig>((config, done) => {
 
     const items = commands.map((cmd, idx) => {
       const isActive = idx === selectedIndex;
-      const cursor = isActive ? styleText("blue", "❯") : " ";
-      const cmdValue = isActive ? styleText("blue", cmd.value) : cmd.value;
+      const cursor = isActive ? styleText("cyan", "❯") : " ";
+      const cmdValue = isActive ? styleText("cyan", cmd.value) : cmd.value;
       const description = cmd.description
         ? styleText("dim", ` - ${cmd.description}`)
         : "";
