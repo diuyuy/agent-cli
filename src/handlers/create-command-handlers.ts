@@ -16,6 +16,7 @@ export const createCommandHandlers = (): Record<string, CommandHandler> => {
       const newModel = await select({
         message: "모델 선택",
         choices: MODEL_PROVIDERS.map((model) => ({ value: model })),
+        default: "claude-sonnet-4-5",
       });
       stateManager.updateModel(newModel);
     },
